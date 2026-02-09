@@ -26,5 +26,6 @@ Application/Startup \
 Application/User \
 Drivers/BSP/STM32WL3x-Nucleo \
 Drivers/CMSIS \
+Drivers/OLED \
 Drivers/STM32WL3x_HAL_Driver \
 
