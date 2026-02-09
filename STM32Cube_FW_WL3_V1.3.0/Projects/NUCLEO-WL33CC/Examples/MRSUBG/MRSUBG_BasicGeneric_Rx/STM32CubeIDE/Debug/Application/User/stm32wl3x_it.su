@@ -1,0 +1,5 @@
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/stm32wl3x_it.c:72:6:NMI_Handler	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/stm32wl3x_it.c:85:6:HardFault_Handler	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/stm32wl3x_it.c:100:6:SVC_Handler	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/stm32wl3x_it.c:113:6:PendSV_Handler	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/stm32wl3x_it.c:126:6:SysTick_Handler	8	static

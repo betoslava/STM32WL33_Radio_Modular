@@ -1,0 +1,13 @@
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:149:19:HAL_DMA_Init	3
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:225:19:HAL_DMA_DeInit	2
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:306:19:HAL_DMA_Start	3
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:349:19:HAL_DMA_Start_IT	4
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:404:19:HAL_DMA_Abort	3
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:450:19:HAL_DMA_Abort_IT	3
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:495:19:HAL_DMA_PollForTransfer	10
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:596:6:HAL_DMA_IRQHandler	12
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:690:19:HAL_DMA_RegisterCallback	9
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:741:19:HAL_DMA_UnRegisterCallback	8
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:819:22:HAL_DMA_GetState	1
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:831:10:HAL_DMA_GetError	1
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Drivers/STM32WL3x_HAL_Driver/Src/stm32wl3x_hal_dma.c:857:13:DMA_SetConfig	2

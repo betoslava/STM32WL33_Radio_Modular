@@ -1,0 +1,9 @@
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:220:22:LL_AHB1_GRP1_EnableClock	24	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_mrsubg.h:598:22:LL_MRSubG_StrobeCommand	16	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_mrsubg.h:620:22:LL_MRSubG_SetRXMode	16	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/main.c:71:5:main	40	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/main.c:182:6:SystemClock_Config	48	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/main.c:213:6:PeriphCommonClock_Config	32	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/main.c:234:13:MX_MRSUBG_Init	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/main.c:283:13:MX_GPIO_Init	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_BasicGeneric_Rx/Src/main.c:304:6:Error_Handler	8	static
