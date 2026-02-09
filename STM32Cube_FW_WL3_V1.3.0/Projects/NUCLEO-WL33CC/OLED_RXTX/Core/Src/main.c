@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "ssd1306.h"
+#include "ssd1306_fonts.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -71,7 +73,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-
+  char myText[] = "Hello OLED";
+  char retVal;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -97,7 +100,10 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
-
+  ssd1306_Init();
+  ssd1306_SetCursor(5,5);
+  retVal = ssd1306_WriteString(myText, Font_7x10, White);
+  ssd1306_UpdateScreen();
   /* USER CODE END 2 */
 
   /* Initialize leds */

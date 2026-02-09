@@ -19,6 +19,8 @@ _BEGIN_STD_C
 
 #if defined(STM32WB)
 #include "stm32wbxx_hal.h"
+#elif defined(STM32WL3) //I added a stm32wl3 configuration myself
+#include "stm32wl3x_hal.h"
 #elif defined(STM32F0)
 #include "stm32f0xx_hal.h"
 #elif defined(STM32F1)
