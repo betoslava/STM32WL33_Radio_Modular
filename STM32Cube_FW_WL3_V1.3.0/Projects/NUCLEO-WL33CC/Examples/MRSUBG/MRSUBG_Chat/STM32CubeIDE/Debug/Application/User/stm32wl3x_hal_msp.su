@@ -1,0 +1,9 @@
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:434:22:LL_APB0_GRP1_EnableClock	24	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:890:22:LL_APB2_GRP1_EnableClock	24	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:908:26:LL_APB2_GRP1_IsEnabledClock	16	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:922:22:LL_APB2_GRP1_DisableClock	16	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:936:22:LL_APB2_GRP1_ForceReset	16	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:950:22:LL_APB2_GRP1_ReleaseReset	16	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/stm32wl3x_hal_msp.c:64:6:HAL_MspInit	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/stm32wl3x_hal_msp.c:86:6:HAL_MRSubG_MspInit	32	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/stm32wl3x_hal_msp.c:128:6:HAL_MRSubG_MspDeInit	8	static

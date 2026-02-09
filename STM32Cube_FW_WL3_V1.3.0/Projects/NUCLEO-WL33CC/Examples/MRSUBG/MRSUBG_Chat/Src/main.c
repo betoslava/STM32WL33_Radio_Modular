@@ -106,7 +106,8 @@ int main(void)
   MX_GPIO_Init();
   MX_MRSUBG_Init();
   /* USER CODE BEGIN 2 */
-  
+
+
   COM_InitTypeDef COM_Init;
 
   COM_Init.BaudRate= 115200;

@@ -1,0 +1,14 @@
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_bus.h:220:22:LL_AHB1_GRP1_EnableClock	24	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_mrsubg.h:598:22:LL_MRSubG_StrobeCommand	16	static
+../../../../../../../Drivers/STM32WL3x_HAL_Driver/Inc/stm32wl3x_ll_usart.h:3482:22:LL_USART_EnableIT_RXNE_RXFNE	32	static,ignoring_inline_asm
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:79:5:main	24	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:209:6:SystemClock_Config	48	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:240:6:PeriphCommonClock_Config	32	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:261:13:MX_MRSUBG_Init	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:310:13:MX_GPIO_Init	8	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:325:9:__io_getcharNonBlocking	16	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:333:9:Read_Buffer_Pop	16	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:347:6:Read_Buffer_Push	16	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:360:6:Process_InputData	32	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:367:6:HAL_MRSubG_IRQ_Callback	32	static
+C:/ST/stm32cubewl3-v1-3-0/STM32Cube_FW_WL3_V1.3.0/Projects/NUCLEO-WL33CC/Examples/MRSUBG/MRSUBG_Chat/Src/main.c:407:6:Error_Handler	8	static
