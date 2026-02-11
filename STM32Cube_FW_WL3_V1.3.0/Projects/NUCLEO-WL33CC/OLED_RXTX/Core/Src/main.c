@@ -24,6 +24,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
+void RenderScreen(uint8_t *values, uint8_t count);
+void DrawBarGraph(uint8_t *values, uint8_t count, uint8_t maxValue);
+
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -33,6 +36,14 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+
+#define OLED_W 128
+#define OLED_H 32
+
+// Reserve first 12 pixels for the title line (Font_7x10 + 2px padding)
+#define TITLE_HEIGHT 12
+#define GRAPH_TOP_Y  (TITLE_HEIGHT)
+#define GRAPH_HEIGHT (OLED_H - TITLE_HEIGHT)   // 20 pixels for bars
 
 /* USER CODE END PD */
 
@@ -73,8 +84,8 @@ int main(void)
 {
 
   /* USER CODE BEGIN 1 */
-  char myText[] = "Hello OLED";
-  char retVal;
+  //char myText[] = "Hello OLED";
+  //char retVal;
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -100,10 +111,25 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
+ // ssd1306_Init();
+ // ssd1306_SetCursor(5,5);
+ // retVal = ssd1306_WriteString(myText, Font_7x10, White);
+ // ssd1306_UpdateScreen();
+
+
   ssd1306_Init();
-  ssd1306_SetCursor(5,5);
-  retVal = ssd1306_WriteString(myText, Font_7x10, White);
-  ssd1306_UpdateScreen();
+
+  // Example 32 bars (fits nicely on 128px wide display)
+  uint8_t graphValues[32] = {
+      5,12,25,45,60,75,90,100,
+      80,65,50,35,20,10,5, 8,
+      15,30,50,70,85,95,70,40,
+      30,25,20,15,10,5,3,0
+  };
+
+  RenderScreen(graphValues, 32);
+
+
   /* USER CODE END 2 */
 
   /* Initialize leds */
@@ -291,6 +317,47 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void DrawBarGraph(uint8_t *values, uint8_t count, uint8_t maxValue)
+{
+    uint8_t barWidth = OLED_W / count;
+    if (barWidth < 1) barWidth = 1;
+
+    for (uint8_t i = 0; i < count; i++)
+    {
+        uint8_t v = values[i];
+        if (v > maxValue) v = maxValue;
+
+        // scale value to graph height
+        uint8_t h = (v * GRAPH_HEIGHT) / maxValue;
+
+        uint8_t x1 = i * barWidth;
+        uint8_t x2 = x1 + barWidth - 1;
+        uint8_t y1 = OLED_H - 1 - h;
+        uint8_t y2 = OLED_H - 1;
+
+        if (x2 >= OLED_W) x2 = OLED_W - 1;
+
+        // Draw filled bar using your existing function
+        ssd1306_FillRectangle(x1, y1, x2, y2, White);
+    }
+}
+
+
+void RenderScreen(uint8_t *values, uint8_t count)
+{
+    ssd1306_Fill(Black);
+
+    // Draw top text
+    ssd1306_SetCursor(0, 0);
+    ssd1306_WriteString("Frequency: 868MHz", Font_7x10, White);
+
+    // Bars below the text
+    DrawBarGraph(values, count, 100);  // values scaled 0–100
+
+    ssd1306_UpdateScreen();
+}
+
 
 /* USER CODE END 4 */
 
